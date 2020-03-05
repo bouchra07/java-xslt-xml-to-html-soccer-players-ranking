@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Players>
+
+	<Player>
+		<Name>Leonel Messi</Name>
+		<details>The top ranked dribbler in FIFA 17 with 96. The Barcelona right wing is the 2nd ranked player overall in FIFA 17.</details>
+		<Age>24/06/1987</Age>
+		<Team>FC Barecelona</Team>
+		<foot>Left</foot>
+		<picture>leo.jpg</picture>
+		<rank>#2</rank>
+		<modal>modal1</modal>
+	</Player>
+		
+	<Player>
+		<Name>Cristiano Ronaldo</Name>
+		<details>The top ranked player in FIFA 17. Cristiano Ronaldo has 92 Pace, 92 Shooting, 91 Dribbling  and is as strong as an ox with 80 Physicality. </details>
+		<Age>05/02/1985</Age>
+		<Team>Juventus</Team>
+		<foot>Right</foot>
+		<picture>ronaldo.jpg</picture>
+		<rank>#1</rank>
+		<modal>modal2</modal>
+	</Player>
+	
+	<Player>
+		<Name>Manuel Neuer</Name>
+		<details>The top ranked goalkeeper in FIFA 17. Manuel Neuer's 95 for Kicking and 91 for Positioning are the highest for each respective stat in FIFA 17.</details>
+		<Age>27/03/1986</Age>
+		<Team>FC Bayern Munich</Team>
+		<foot>Right</foot>
+		<picture>manuel.jpg</picture>
+		<rank>#5</rank>
+		<modal>modal3</modal>
+	</Player>
+	
+	<Player>
+		<Name>Luis Suarez</Name>
+		<details>The top ranked striker in FIFA 17. 90 Shooting and 87 Dribbling. You will score lots of goals with Luis Suárez.</details>
+		<Age>24/01/1987</Age>
+		<Team>FC. Barcelona</Team>
+		<foot>Right</foot>
+		<picture>suarez.jpg</picture>
+		<rank>#4</rank>
+		<modal>modal4</modal>
+	</Player>
+	
+	<Player>
+		<Name>J.Neymar</Name>
+		<details>Incredibly skillful with the ability to turn a game in an instant. The Barcelona left wing has the 2nd highest Dribbling attribute in FIFA 17 with 95.</details>
+		<Age>05/02/1992</Age>
+		<Team>FC. Barcelona</Team>
+		<foot>Right</foot>
+		<picture>neymar.jpg</picture>
+		<rank>#3</rank>
+		<modal>modal5</modal>
+	</Player>
+	
+	<Player>
+		<Name>Gareth Bale</Name>
+		<details>All about that Pace. The Real Madrid right winger has 94 Pace to go along with 87 Shooting and 86 Dribbling.</details>
+		<Age>16/07/1989</Age>
+		<Team>Real Madrid</Team>
+		<foot>Left</foot>
+		<picture>bale.jpg</picture>
+		<rank>#6</rank>
+		<modal>modal6</modal>
+	</Player>
+	
+</Players>
