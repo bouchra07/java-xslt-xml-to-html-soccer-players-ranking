@@ -8,6 +8,7 @@
 		<Team>FC Barecelona</Team>
 		<foot>Left</foot>
 		<picture>leo.jpg</picture>
+		<picturemodal>leoo.jpg</picturemodal>
 		<rank>#2</rank>
 		<modal>modal1</modal>
 	</Player>
@@ -19,6 +20,7 @@
 		<Team>Juventus</Team>
 		<foot>Right</foot>
 		<picture>ronaldo.jpg</picture>
+		<picturemodal>ronaldoo.jpg</picturemodal>
 		<rank>#1</rank>
 		<modal>modal2</modal>
 	</Player>
@@ -30,6 +32,7 @@
 		<Team>FC Bayern Munich</Team>
 		<foot>Right</foot>
 		<picture>manuel.jpg</picture>
+		<picturemodal>manuell.jpg</picturemodal>
 		<rank>#5</rank>
 		<modal>modal3</modal>
 	</Player>
@@ -41,6 +44,7 @@
 		<Team>FC. Barcelona</Team>
 		<foot>Right</foot>
 		<picture>suarez.jpg</picture>
+		<picturemodal>suarezz.jpg</picturemodal>
 		<rank>#4</rank>
 		<modal>modal4</modal>
 	</Player>
@@ -52,6 +56,7 @@
 		<Team>FC. Barcelona</Team>
 		<foot>Right</foot>
 		<picture>neymar.jpg</picture>
+		<picturemodal>neymarr.jpg</picturemodal>
 		<rank>#3</rank>
 		<modal>modal5</modal>
 	</Player>
@@ -63,6 +68,7 @@
 		<Team>Real Madrid</Team>
 		<foot>Left</foot>
 		<picture>bale.jpg</picture>
+		<picturemodal>balee.jpg</picturemodal>
 		<rank>#6</rank>
 		<modal>modal6</modal>
 	</Player>

@@ -53,34 +53,48 @@
 
 	
 	<!-- <div class="page-inner"> -->
-		<nav>
-
+		<nav class="gtco-nav" role="navigation">
+			<div class="gtco-container">
+				
+				<div class="row">
+					<div class="col-sm-4 col-xs-12">
+						<div id="gtco-logo"><a href="Players.html">FIFA17 <em>.</em></a></div>
+					</div>
+					<div class="col-xs-8 text-right menu-1">
+						<ul>
+							
+							<li><a href="https://www.easports.com/fifa/fifa-17-player-ratings-top-50#3to1">Website</a></li>
+						</ul>	
+					</div>
+				</div>
+				
+			</div>
 		</nav>
+		
+		<header id="gtco-header" class="gtco-cover gtco-cover-sm" role="banner" style="background-image: url(images/fifa4.jpg)">
+			<div class="overlay"></div>
+			<div class="gtco-container">
+				<div class="row">
+					<div class="col-md-12 col-md-offset-0 text-left">
+						<div class="row row-mt-15em">
 	
-	
-	<header id="gtco-header" class="gtco-cover gtco-cover-sm" role="banner" style="background-image: url(images/fifa.jpg)">
-		<div class="overlay"></div>
-		<div class="gtco-container">
-			<div class="row">
-				<div class="col-md-12 col-md-offset-0 text-center">
-					<div class="row">
-						<div class="col-md-12 mt-text animate-box" data-animate-effect="fadeInUp">
-							<h1>FIFA 17 - PLAYER RATINGS</h1>	
-
+							<div class="col-md-7 mt-text animate-box" data-animate-effect="fadeInUp">
+								<span class="intro-text-small">FIFA17</span>
+								<h1>TOP Players</h1>	
+							</div>
+							
 						</div>
 						
 					</div>
-					
 				</div>
 			</div>
-		</div>
-	</header>
+		</header>
 	
 	<div class="gtco-section">
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-					<h2>TOP 6 </h2>
+					<h2>TOP Best Players </h2>
 					<p>Based on their performances over the last 365 days in league and cup competitions, these are the 6 top-rated players in FIFA 17 and FIFA 17 Ultimate Team™.</p>
 				</div>
 			</div>
@@ -90,8 +104,8 @@
 				
 			<xsl:for-each select="Players/Player">
 			<xsl:sort select="rank"/>
-				<div class="col-lg-4 col-md-4 col-sm-6">
-					<a  class="fh5co-card-item" data-toggle="modal">
+				<div  class="col-lg-4 col-md-4 col-sm-6">
+					<a style="height:80%;"  class="fh5co-card-item" data-toggle="modal">
 					<xsl:attribute name="data-target">#<xsl:value-of select='modal' /></xsl:attribute>
 						<figure>
 							<div class="post-date">
@@ -106,35 +120,37 @@
 							<p><span class="btn btn-primary">Details</span></p>
 						</div>
 					</a>
-					<div class="modal fade" >
+					<div class="  modal fade" >
 					<xsl:attribute name="id"><xsl:value-of select='modal' /></xsl:attribute>
 						<div class="modal-dialog">
-						  <div class="modal-content">
+						  <div  class="fh5co-card-item modal-content">
 					  
 							<!-- Modal Header -->
-							<div class="modal-header">
-							  <h4 class="modal-title">Player Details</h4>
-							</div>
-					  
+							
+					  	
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<h2>Player's Details </h2>
+				</div>
+		
 							<!-- Modal body -->
-							<div class="modal-body">
+							<div class=" modal-body">
 								<div class="row card text-center border border-light p-5" >
 									<div class="col-lg-6 col-md-6 col-sm-6">
-										<figure>
-										<img alt="Image" class="img-responsive"><xsl:attribute name="src">images/<xsl:value-of select='picture' /></xsl:attribute></img>
+										<figure class="col-md-8 col-md-offset-2 text-center">
+										<img style=" height:100%" alt="Image" class="img-responsive"><xsl:attribute name="src">images/<xsl:value-of select='picturemodal' /></xsl:attribute></img>
 											
 										</figure>
 									</div>
 
 									<div class="col-lg-6 col-md-6 col-sm-6">
-										<table>
+										<table class="col-md-8 col-md-offset-2 text-center">
 											<tr>
 												<th>
 													Name
 												</th>
 											</tr>
 											<tr>
-												<td> <xsl:value-of select="Name" /></td>
+												<td class="text-left"> <xsl:value-of select="Name" /></td>
 											</tr>
 											<tr>
 												<th>
@@ -142,14 +158,14 @@
 												</th>
 											</tr>
 											<tr>
-												<td><xsl:value-of select="Age" /></td>
+												<td class="text-left"><xsl:value-of select="Age" /></td>
 											</tr>
 
 											<tr><th>Team</th></tr>
-											<tr><td><xsl:value-of select="Team" /></td></tr>
+											<tr><td class="text-left"><xsl:value-of select="Team" /></td></tr>
 
 											<tr><th>Preferred foot</th></tr>
-											<tr><td><xsl:value-of select="foot" /></td></tr>
+											<tr><td class="text-left"><xsl:value-of select="foot" /></td></tr>
 
 										</table>
 									</div>
@@ -157,11 +173,6 @@
 									
 									
 								</div>
-							</div>
-					  
-							<!-- Modal footer -->
-							<div class="modal-footer">
-								<p><span class="btn btn-primary" data-dismiss="modal">Close</span></p>
 							</div>
 					  
 						  </div>
