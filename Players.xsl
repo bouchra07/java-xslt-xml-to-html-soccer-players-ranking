@@ -8,7 +8,10 @@
 		<style>
 			.post-date{ text-align:center; color:#FFF; font-weight:50; font-size:14px; line-height:18px; text-transform:uppercase; display:block; background-color:#c94c4c; width:50px; height:50px; position:absolute; left:0; top:0; padding-top:25px; z-index:50}
 			.post-date span{ font-size:15px; line-height:0px; display:block}
+			
 		</style>
+		
+
 	<meta charset="utf-8"></meta>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
 	<title>Players Ranking List</title>
@@ -129,6 +132,7 @@
 							
 					  	
 				<div class="col-md-8 col-md-offset-2 text-center">
+				<br></br>
 					<h2>Player's Details </h2>
 				</div>
 		
@@ -141,8 +145,11 @@
 											
 										</figure>
 									</div>
-
+									
+									
+						
 									<div class="col-lg-6 col-md-6 col-sm-6">
+									<br></br>
 										<table class="col-md-8 col-md-offset-2 text-center">
 											<tr>
 												<th>
@@ -182,11 +189,21 @@
 				</xsl:for-each>
 				<!--here-->
 				
-				
 
 			</div>
 		</div>
 	</div>
+	
+	<div>
+	<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+					<h1>For additional information please visit Fifa's offical website <strong><a href="https://www.easports.com/fifa/fifa-17-player-ratings-top-50#3to1">here</a></strong> </h1>
+				</div>
+			</div>
+	</div>
+	
+	
+	
 	
 
 		<footer id="gtco-footer" role="contentinfo">
@@ -217,9 +234,7 @@
 
 	</div>
 
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-	</div>
+
 	
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
